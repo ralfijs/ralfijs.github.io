@@ -1,0 +1,113 @@
+
+body {
+font-family: arial, Copperplate, Arial Black;
+font-size: 15px;
+line-height: 1.5;
+padding: 0;
+margin:0;
+background-color: #f4f4f4;
+}
+/*topping*/
+.container {
+	width: 100%;
+	margin:auto;
+	overflow: hidden;
+}
+header {
+	background-color: #5a6b70;
+	color: white;
+	padding-top: 5px;
+	padding-left: 10px;
+	border-bottom: red 5px solid;
+	min-height: 70px;
+	
+}
+header a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header li {
+	float: left;
+	padding: 0 20px 0 20px;
+	display: inline;
+}
+header #brand {
+	float:left;
+}
+header #brand {
+	margin: 0px;
+	padding-left: 20px;
+	margin-top: -10px;
+}
+.high {
+	color: red;
+}
+header nav {
+	float: right;
+	margin-top: 10px;
+}
+nav ul li:hover {
+	background-color: #303a3d;
+}
+/*middle showcase*/
+#showcase {
+ min-height: 400px;
+ background: url(img/bg.jpg) no-repeat 0 -20px ;
+ background-size: cover;
+ padding: 10px;
+ text-align:center;
+ color: white;
+ border-bottom: red 4px solid;
+}
+#showcase h1{
+ margin-top: 100px;
+ color: #e87d30;
+}
+#showcase p {
+	font-family: arial;
+	font-size: 20px;
+}
+/*inputs*/
+#confirm {
+	background-color: #5a6b70;
+	padding: 15px;
+}
+#confirm h1{
+	float: left;
+	margin-left: 20%;
+}
+#confirm form {
+	float:right;
+	padding-top: 20px;
+	margin-right: 20%;
+
+}
+#confirm input {
+	width: 250px;
+	height: 25px;
+}
+.button1 {
+	background: red;
+	border:0;
+	height: 32px;
+	width: 80px;
+	color: white;
+}
+/*lower boxes*/
+.boxes {
+
+	margin-top: 0px;
+
+}
+.boxes .box {
+	float: left;
+	text-align: center;
+	width: 45%;
+	padding: 10px;
+}
+.boxes .box img {
+	width: 90px;
+}
+
+
